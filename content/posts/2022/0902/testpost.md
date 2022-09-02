@@ -5,3 +5,6 @@ draft: true
 ---
 
 this is test post.
+
+編集のやりとりは面白そう。
+[GitHub のプルリクエストに対するレビューの修正に対応する方法](https://tonari-it.com/github-request-changes-fix/#toc3)
