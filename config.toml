@@ -1,4 +1,92 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+DefaultContentLanguage = "en"
+languageCode = 'ja'
+hasCJKLanguage = true 
+summaryLength = 140
+title = '鶴屋蛙芽ブログ'
+paginate = "10" # Number of posts per page
 theme = "mainroad"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[Params]
+
+customCSS = ["../css/custom.css"]
+  favicon = "favicon.ico" # Path to favicon file
+ description = "人生後半戦に挑む鶴屋蛙芽（つるやかめ）の軌跡。趣味のプログラミング、語学学習や、日々の暮らし、更年期の苦しみなどについて綴っています。" # Site description. Used in meta description
+  copyright = "turuyakame" # Footer copyright holder, otherwise will use site title
+  hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
+  summaryLength = 10 # サマリーの長さを120単語にする
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
+#  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006/01/02" # Change the format of dates
+#  opengraph = true # Enable OpenGraph if true
+# schema = true # Enable Schema
+#  mathjax = true # Enable MathJax
+#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+#   customCSS = ["css/custom.css"] # Include custom CSS files
+#   customJS = ["js/custom.js"] # Include custom JS files
+
+
+[Author] # Used in authorbox
+  name = "鶴屋蛙芽"
+  bio = "50歳をとうに越えてしまった。"
+  avatar = "img/profile.png"
+
+[Params.logo]
+  image = "img/profile.png"
+  title = "鶴屋蛙芽"
+  subtitle = "Just another frog's site"
+
+[Params.style.vars] 
+  highlightColor = "none"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 10 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+ [Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "username"
+  twitter = "turuyakame"
+  # instagram = "username"
+  # linkedin = "username"
+  # telegram = "username"
+  # github = "username"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # email = "example@example.com"
+
+  [[Menus.main]]
+  Name = "トップ"
+  URL = "/"
+  weight = 1
+
+[[Menus.main]]
+  Name = "カテゴリー"
+  URL = "/categories/"
+  weight = 2
+
+[[Menus.main]]
+  Name = "タグ"
+  URL = "/tags/"
+  weight = 3
+
+[Params.thumbnail]
+  # Show thumbnail only for list items
+  visibility = ["list"]
