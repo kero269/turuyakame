@@ -13,3 +13,15 @@ draft: true
   > Section で管理する場合は、フォルダのある場所がそのままセクションになります。
   > フォルダの構造を変えたら URL が変わるけど、記事やセクションページごとにパーマリンクを指定しておけば問題ありません。
   > カテゴリの設定も不要です。
+
+OK それではセクションにしようぞ。
+
+はまりポイント
+
+- 複数セクションをつくる場合は content 直下に置く
+- トップページ（メインページ）に複数セクションを表示させたい場合は、`config`に指定する。
+  ````
+  [Params]
+  mainSections = ["daily", "tech"] # Specify section pages to show on home page and the "Recent articles" widget```
+  ````
+-

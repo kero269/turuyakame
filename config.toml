@@ -11,11 +11,15 @@ theme = "mainroad"
   category = "categories"
   tag = "tags"
 
-[Params]
 
+[permalinks]
+#  '/' = '/:title/'
+'/' = '/:section/:slug/'
+
+[Params]
 customCSS = ["../css/custom.css"]
   favicon = "favicon.ico" # Path to favicon file
- description = "人生後半戦に挑む鶴屋蛙芽（つるやかめ）の軌跡。趣味のプログラミング、語学学習や、日々の暮らし、更年期の苦しみなどについて綴っています。" # Site description. Used in meta description
+  description = "人生後半戦に挑む鶴屋蛙芽（つるやかめ）の軌跡。趣味のプログラミング、語学学習や、日々の暮らし、更年期の苦しみなどについて綴っています。" # Site description. Used in meta description
   copyright = "turuyakame" # Footer copyright holder, otherwise will use site title
   hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
   summaryLength = 10 # サマリーの長さを120単語にする
@@ -25,7 +29,7 @@ customCSS = ["../css/custom.css"]
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
-#  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
+ mainSections = ["daily", "tech"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006/01/02" # Change the format of dates
 #  opengraph = true # Enable OpenGraph if true
 # schema = true # Enable Schema

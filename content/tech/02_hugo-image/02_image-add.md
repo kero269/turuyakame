@@ -3,7 +3,7 @@ title: "Hugoの投稿に画像を追加する"
 date: 2022-09-02T10:17:15+09:00
 draft: true
 thumbnail:
-  src: "//localhost:1313/posts/2022/0902/IMG_8602.jpeg"
+  src: "//localhost:1313/posts/tech/IMG_8602.jpeg"
   visibility:
     - list
     - post
@@ -55,3 +55,7 @@ thumbnail:
     - list
     - post
 ```
+
+## 大きな画像から小さなサムネイル画像を生成
+
+[大きな画像ファイルから自動的に小さなサムネイル画像を生成する \(Image Processing\) \- まくまく Hugo ノート](https://maku77.github.io/hugo/misc/image-processing.html)
