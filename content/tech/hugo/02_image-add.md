@@ -1,9 +1,9 @@
 ---
 title: "Hugoの投稿に画像を追加する"
 date: 2022-09-02T10:17:15+09:00
-draft: true
+draft: false
 thumbnail:
-  src: "//localhost:1313/posts/tech/IMG_8602.jpeg"
+  src: "https://tiny-trifle-b4e820.netlify.app/posts/tech/IMG_8602.jpeg"
   visibility:
     - list
     - post
@@ -16,7 +16,7 @@ thumbnail:
 画像は`figure`(マークダウンの image syntakx 拡張)を使うと、[パラメーター](target="_blank")が使える。
 
 {{< figure
-src="../kame_logo2.png"
+src="kame_logo2.png"
 title="Screenshot"
 class="center"
 width="320"
