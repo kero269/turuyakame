@@ -2,7 +2,7 @@
 title: "Testpost"
 date: 2022-09-02T21:10:59+09:00
 draft: true
-url: "daily/testpost"
+
 slug: customize-hugo-url
 ---
 

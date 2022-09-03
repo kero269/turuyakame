@@ -59,3 +59,10 @@ thumbnail:
 ## 大きな画像から小さなサムネイル画像を生成
 
 [大きな画像ファイルから自動的に小さなサムネイル画像を生成する \(Image Processing\) \- まくまく Hugo ノート](https://maku77.github.io/hugo/misc/image-processing.html)
+
+## 画像リンクの変更
+
+Markdown Render Hooks による解決方法
+[Hugo で出力される a タグをカスタマイズする \- kamoqq\.info](https://kamoqq.info/post/hugo-render-hook-templates/)
+
+[Hugo で permalinks を設定しているときの画像 URL の不具合と修正方法 \| 反面教師あり学習](https://blog.eqseqs.work/2021/05/15/133033/)

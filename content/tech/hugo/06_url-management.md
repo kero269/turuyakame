@@ -14,15 +14,6 @@ permlink を変えたい場合、[URL Management \| Hugo](https://gohugo.io/cont
 
 [セクションテンプレート \(section\.html\) の中でセクションのタイトルを表示する \- まくまく Hugo ノート](https://maku77.github.io/hugo/layout/section-name.html)
 
-## セクションはどう使うか問題
-
-カテゴリもセクションも階層グループをもつという点は同じだが、
-セクションごとにレイアウト（/layouts)を変えられる
-セクションごとに投稿テンプレートを変えられる（/archetypes）
-permalink に設定できる
-
-どっちもできる
-
-- リスト（コンテンツ一覧）をつくる
+[サイト構造を変えてもページの URL が変わらないようにする \- まくまく Hugo ノート](https://maku77.github.io/p/u9r9p7n/)
 
 ##　投稿で直接喜寿部する方法
