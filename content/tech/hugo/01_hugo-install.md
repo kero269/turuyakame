@@ -2,6 +2,8 @@
 title: "Hugo のインストールからテーマまで"
 date: 2022-09-02T09:01:34+09:00
 draft: true
+tags: [example, test]
+categories: [tech]
 ---
 
 - [Quick Start \| Hugo](https://gohugo.io/getting-started/quick-start/)

@@ -22,6 +22,6 @@ OK それではセクションにしようぞ。
 - トップページ（メインページ）に複数セクションを表示させたい場合は、`config`に指定する。
   ````
   [Params]
-  mainSections = ["daily", "tech"] # Specify section pages to show on home page and the "Recent articles" widget```
+  mainSections = ["content", "daily", "tech"] # Specify section pages to show on home page and the "Recent articles" widget```
   ````
 -
