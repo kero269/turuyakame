@@ -4,6 +4,17 @@ date: 2022-09-02T20:43:35+09:00
 draft: true
 ---
 
+{{< figure
+src="/tech/Hugo/sunset.jpg"
+title="Screenshot"
+class="center"
+width="320"
+height="640"
+link="https://gohugo.io/content-management/shortcodes/#figure"
+target="_blank"
+alt="鶴屋蛙芽"
+caption="これはキャプションです" >}}
+
 permlink を変えたい場合、[URL Management \| Hugo](https://gohugo.io/content-management/urls/)によれば`config`にルールを記述すれば良いとある。
 
 そもそもセクションのつくり方として、content 直下に作らなければならないようだ。
