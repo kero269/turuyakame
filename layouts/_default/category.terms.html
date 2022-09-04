@@ -1,0 +1,19 @@
+{{ define "main" }} 
+<main class="main list" role="main"></main>
+
+<!-- <header class="main__header">
+<h1>カテゴリーとタグの一覧</h1>
+</header> -->
+
+
+{{- range $taxonomyName, $taxonomy := .Site.Taxonomies }}
+<h2>{{ $taxonomyName }}</h2>
+<ul>
+  {{- range ($.Site.GetPage "taxonomyTerm" $taxonomyName).Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{- end }}
+</ul>
+
+{{- end }}
+</main>
+{{ end }}

@@ -23,15 +23,9 @@ URL = "/tech/"
  weight = 2
  
 [[menu.main]]
-  Name = "Categories"
+  Name = "Categories+Tags"
   URL = "/categories/"
   weight = 3
-
-[[menu.main]]
-  Name = "Tags"
-  URL = "/tags/"
-  weight = 4
-
 
 [Params]
   authorbox = true # Show authorbox at bottom of pages if true
