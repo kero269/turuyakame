@@ -1,0 +1,25 @@
+<!-- Groups content according to content section.-->
+{{ range .Pages.GroupBy "Section" }}
+<!-- Checks for existence of _index.md for a section; if available, pulls from "title" in front matter -->
+{{ with $.Site.GetPage "section" .Key }}
+<h3>{{.Title}}</h3>
+{{ else }}
+<!-- If no _index.md is available, ".Key" defaults to the section title and filters to title casing -->
+<h3>{{ .Key | title }}</h3>
+{{ end }}
+<ul>
+  {{ range .Pages }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+
+    <!-- test -->
+    {{ range .Site.Sections }} {{ range .Pages }} {{ range .Pages }}
+    <ul>
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    </ul>
+    {{ end }} {{ end }} {{ end }}
+    <!-- test -->
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

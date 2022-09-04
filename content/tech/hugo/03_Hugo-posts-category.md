@@ -43,3 +43,8 @@ slug: slug-test
   mainSections = ["content", "daily", "tech"] # Specify section pages to show on home page and the "Recent articles" widget```
   ````
 -
+
+### セクションごとの一覧
+
+[Section 一覧について。 \- 日本語 \- HUGO](https://discourse.gohugo.io/t/section/24238)
+[\{\{ range \.Site\.Sections \}\} \{\{ range \.Pages \}\} \{\{ range \.Pages \}\} \{\{ \.Title \}\} \{\{ end \}\} \{\{ end \}\} \{\{ end \}\}](https://discourse.gohugo.io/t/topic/22675/4)
