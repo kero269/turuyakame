@@ -2,12 +2,12 @@
 title: "Hugoの投稿に画像を追加する"
 date: 2022-09-02T10:17:15+09:00
 draft: false
-thumbnail:
-  src: "/hugo/IMG_8602.jpeg"
-  visibility:
-    - list
-    - post
+thumbnail: "IMG_8…3f83d53a1_528825_150x150_fill_q75_box_smart1.jpeg"
 ---
+
+{{< thumbnail src="IMG_8602.jpeg" >}}
+
+    http://localhost:1313/tech/2022/02/09/101715/IMG_8…3f83d53a1_528825_150x150_fill_q75_box_smart1.jpeg
 
 ## Page Resources のはなし
 
@@ -16,7 +16,7 @@ thumbnail:
 画像は`figure`(マークダウンの image syntakx 拡張)を使うと、[パラメーター](target="_blank")が使える。
 
 {{< figure
-src="/hugo/frog_doushiyou2.png"
+src="frog_doushiyou2.png"
 title="Screenshot"
 class="center"
 width="320"
@@ -59,6 +59,8 @@ thumbnail:
 ## 大きな画像から小さなサムネイル画像を生成
 
 [大きな画像ファイルから自動的に小さなサムネイル画像を生成する \(Image Processing\) \- まくまく Hugo ノート](https://maku77.github.io/hugo/misc/image-processing.html)
+
+[hugo で画像を最適化して出力する \| tbsmcd\.net](https://tbsmcd.net/post/image_processing/)
 
 ## 画像リンクの変更
 

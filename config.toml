@@ -64,8 +64,7 @@ url = "/tech/"
   widgets = ["search", "recent", "categories", "taglist","social"]
 
 [Params.thumbnail]
-  # Show thumbnail only for list items
-  visibility = ["list"]
+  visibility = ["list"] # Control thumbnail visibility
 
 [Params.widgets]
   recent_num = 10 # Set the number of articles in the "Recent articles" widget
