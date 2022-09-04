@@ -6,20 +6,25 @@ archives: ["2020-02"]
 draft: false
 slug: customize-hugo-url
 thumbnail:
-  src: "img/frog.jpg"
+  src: "img/202209/frog.jpg"
 ---
 
-{{< img800x src="frog.jpg" alt="レシート" >}}
+{{< figure
+src="turukame-14.jpg"
+title="カメの画像"
+link="https://gohugo.io/content-management/shortcodes/#figure"
+target="_blank"
+alt="鶴屋蛙芽"
+caption="カメが泳いでいる" >}}
 
-🤔
+## thumbnail のテスト用投稿
 
----
+朝のうちにお散歩しないと、犬を連れて外には出られない。
+まだまだ早起きは続きそう。
 
-## プロすごい
+今日の蒸し暑さも異常…。晴れているから台風の被害にあっている地域があるなんて信じられないけど、この湿気だとなんとなくわかるような気もする。
 
-写真論とか撮影技術とか分からないけど、上機嫌とはいえない 0 歳児からどうにか引き出した 0.1 秒の笑顔を切り取る技術は子供専門スタジオだからこそだし、撮影しているさまを見るだけでも十分面白く勉強にもなったので、あれには財布の紐も緩むというもの。
-
-各所から頂いた出産祝で払いました……
+サムネイルのサイズは巨大なまま。
 
 編集のやりとりは面白そう。
 [GitHub のプルリクエストに対するレビューの修正に対応する方法](https://tonari-it.com/github-request-changes-fix/#toc3)

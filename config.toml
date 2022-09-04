@@ -14,7 +14,7 @@ theme = "mainroad"
 [menu]
 [[menu.main]]
   Name = "Home"
-  URL = "/categories/"
+  URL = "/"
   weight = -100
 
 [[menu.main]]
