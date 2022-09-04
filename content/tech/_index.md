@@ -1,5 +1,5 @@
 ---
-title: "技術系の投稿"
+title: "Tech"
 url: "/tech/"
 ---
 

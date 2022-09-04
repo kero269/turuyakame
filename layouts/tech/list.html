@@ -1,0 +1,18 @@
+{{ if (eq .Title "Tech") }}
+<ul class="postlist">
+  {{ range .Sections.ByTitle }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ partial "recursive.html" . }}
+  </li>
+  {{ end }}
+</ul>
+{{ else }}
+<ul class="postlist">
+  {{ range .RegularPages }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
