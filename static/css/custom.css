@@ -1,4 +1,17 @@
-/* body {
-  color: pink;
-  font-size: 1em;
-} */
+/* 20220904  */
+
+body {
+  background-color: white;
+}
+.container,
+.container--outer {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  box-shadow: none;
+}
+.footer {
+  width: inherit;
+  position: fixed;
+  bottom: 0;
+}
