@@ -57,10 +57,10 @@ theme = "mainroad"
 [Author] # Used in authorbox
   name = "鶴屋蛙芽"
   bio = "50歳をとうに越えてしまった。"
-  avatar = "img/profile.png"
+  avatar = "img/turuya-kame.svg"
 
 [Params.logo]
-  image = "img/profile.png"
+  image = "img/kame_logo.svg"
   title = "鶴屋蛙芽"
   subtitle = "Just another つるかめ's site"
 
