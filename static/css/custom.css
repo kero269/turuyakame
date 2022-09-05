@@ -1,4 +1,37 @@
-/* 20220904  */
+/* 20220905 */
+
+/* color 
+--prussian-blue: #003049ff;
+--maximum-red: #d62828ff;
+--cultured: #f2f2f2ff; light gray
+--skobeloff: #216869ff; green
+--honey-yellow: #ffad05ff;
+
+--sonic-silver: #6c757dff;
+--davys-grey: #495057ff;
+--onyx: #343a40ff;
+--eerie-black: #212529ff;
+--rich-black-fogra-39: #0b090aff;
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  color: #343a40ff !important;
+}
+
+p,
+.list__excerpt a {
+  font-size: 1.2em;
+}
+a:hover {
+  color: #216869ff !important;
+  text-decoration: none !important;
+}
 
 body {
   background-color: white;
@@ -20,13 +53,75 @@ body {
   bottom: 0;
 }
 
-/* 20220905 */
+/* header */
+/* menu */
+.menu__list {
+  background-color: white;
+  border: 1rem solid;
+  border-bottom: 1px solid #6c757dff !important;
+  border-top: 1px solid #6c757dff !important;
+}
+.menu__link:hover {
+  color: #216869ff !important;
+}
+
+@media screen and (min-width: 1240px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+/* btn */
+.btn {
+  background-color: white;
+  border: 1px solid #6c757dff;
+  border-radius: 5px;
+}
+
+/* tag */
+.widget-taglist__link {
+  color: #6c757dff !important;
+}
+
+/* social icon */
+.widget-social__link-icon {
+  fill: #6c757dff;
+}
+
+/* toc */
+.toc__title {
+  background: #f2f2f2;
+  color: #6c757dff;
+}
+.toc__menu a {
+  font-size: 1.1em;
+}
+
+/* site home */
 .list__excerpt a {
   font-weight: 100;
 }
 .list__footer-readmore {
   float: none;
   margin-top: 10px;
+}
+
+/* 通常の投稿ページ　layout/_default/single.hdml */
+.turukame__post h2,
+.turukame__post h3,
+.turukame__post h4 {
+  padding-top: 1em;
+}
+.turukame__post .tags__item {
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  /* タブレット以下*/
+  .turukame__post .post__content a {
+    text-decoration: underline !important;
+  }
 }
 
 /* 20220905 alert*/
