@@ -46,31 +46,71 @@ body {
 .container--outer {
   /* footerを下に固定、コンテンツがかぶらないようにする　*/
   min-height: 100vh;
+  position: relative;
 }
 .footer {
   width: inherit;
   position: absolute;
   bottom: 0;
+  margin-bottom: -70px; /* ネガティブマージン追加*/
+  color: #fff1e6;
+  background: #212529ff;
+  border-top: 0;
 }
-
-/* header */
-/* menu */
-.menu__list {
-  background-color: white;
-  border: 1rem solid;
-  border-bottom: 1px solid #6c757dff !important;
-  border-top: 1px solid #6c757dff !important;
+.footer a {
+  color: white !important;
 }
-.menu__link:hover {
-  color: #216869ff !important;
-}
-
 @media screen and (min-width: 1240px) {
   /*　画面サイズが480pxからはここを読み込む　*/
   .wrapper {
     margin: 0 auto;
     max-width: 1200px;
   }
+}
+/* header */
+.logo {
+  max-width: 1200px;
+  margin: auto;
+  /* padding: 25px; */
+}
+
+/* menu かなり挙動が変なので変更しないかも*/
+.turukame-menu {
+  border-bottom: 1px solid #6c757dff !important;
+  border-top: 1px solid #6c757dff !important;
+}
+.menu__list {
+  background-color: white;
+  padding: 0 25px;
+  /* border: 1rem solid; */
+  /* border-bottom: 1px solid #6c757dff !important; */
+  /* border-top: 1px solid #6c757dff !important; */
+}
+@media screen and (min-width: 1200px) {
+  .menu__list {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 769px) {
+  .menu__link {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .turukame-menu {
+    /* border-top: 1px solid white !important; */
+    border-bottom: 1px solid white !important;
+  }
+  .menu__btn {
+    background-color: white;
+    color: #0b090aff;
+    border-top: 1px solid #6c757dff !important;
+    /* border-bottom: 1px solid #6c757dff !important; */
+  }
+}
+.menu__link:hover {
+  color: #216869ff !important;
 }
 
 /* btn */

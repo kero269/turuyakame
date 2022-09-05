@@ -62,7 +62,7 @@ theme = "mainroad"
 [Params.logo]
   image = "img/profile.png"
   title = "鶴屋蛙芽"
-  subtitle = "Just another frog's site"
+  subtitle = "Just another つるかめ's site"
 
 [Params.style.vars] 
   highlightColor = "none"
