@@ -5,7 +5,7 @@ draft: true
 tags: #fill in [example, test]
 ---
 
-これは url 確認用 post です。
+{{< blog-card url="https://gatolynx.tokyo/geek/hugo-ogpcard/">}}
 
 {{< alert color="danger" >}}
 伝えたいメッセージ
