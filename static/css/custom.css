@@ -10,9 +10,13 @@ body {
   margin: 0 auto;
   box-shadow: none;
 }
+.container--outer {
+  /* footerを下に固定、コンテンツがかぶらないようにする　*/
+  min-height: 100vh;
+}
 .footer {
   width: inherit;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 

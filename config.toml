@@ -18,14 +18,19 @@ theme = "mainroad"
   weight = -100
 
 [[menu.main]]
-Name = 'tech'
-URL = "/tech/"
- weight = 2
+  Name = 'tech'
+  URL = "/tech/"
+  weight = 2
  
+[[menu.main]]
+  Name = 'Site-info'
+  URL = "/site-info/"
+  weight = 3
+
 [[menu.main]]
   Name = "Categories+Tags"
   URL = "/categories/"
-  weight = 3
+  weight = 4
 
 [Params]
   authorbox = true # Show authorbox at bottom of pages if true
