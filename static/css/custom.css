@@ -24,3 +24,29 @@ body {
   float: none;
   margin-top: 10px;
 }
+
+/* 20220905 alert*/
+.message-box {
+  padding: 0.75em;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  background-color: #dfe7fd;
+  color: #00132d;
+}
+.success {
+  background-color: #e2ece9;
+  color: #212224;
+}
+.danger {
+  background-color: #fde2e4;
+  color: #45040c;
+}
+.notice {
+  background-color: #fff1e6;
+  color: #751006;
+}
+.light {
+  background-color: #f2f2f2;
+  color: #343a40;
+}

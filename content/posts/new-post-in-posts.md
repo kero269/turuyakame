@@ -6,3 +6,7 @@ tags: #fill in [example, test]
 ---
 
 これは url 確認用 post です。
+
+{{< alert color="danger" >}}
+表示したいコメント
+{{< /alert >}}

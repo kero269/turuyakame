@@ -32,7 +32,7 @@ URL = "/tech/"
   customCSS = ["../css/custom.css"]
   copyright = "turuyakame" # Footer copyright holder, otherwise will use site title
   dateformat = "2006/01/02" # Change the format of dates
-  description = "人生後半戦に挑む鶴屋蛙芽（つるやかめ）の軌跡。趣味のプログラミング、語学学習や、日々の暮らし、更年期の苦しみなどについて綴っています。" # Site description. Used in meta description
+  description = "人生後半戦に挑んでいる鶴屋蛙芽（つるやかめ）の軌跡。趣味の語学学習やプログラミング、日々のアレヤコレヤについて綴っています。" # Site description. Used in meta description
   favicon = "favicon.ico" # Path to favicon file  
   hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
   mainSections = ["daily", "tech", "posts"] # Specify section pages to show on home page and the "Recent articles" widget
@@ -42,7 +42,7 @@ URL = "/tech/"
   summaryLength = 10 # サマリーの長さを120単語にする
   toc = true # Enable Table of Contents
   twitter_cards = true # Enable Twitter Cards if true
-#  opengraph = true # Enable OpenGraph if true
+#  opengraph = true # Enable OpenGraph if true <-設定する
 # schema = true # Enable Schema
 #  mathjax = true # Enable MathJax
 #  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -67,7 +67,7 @@ URL = "/tech/"
   list = false  # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist","social"]
+  widgets = ["search", "categories", "taglist","social"] #"recent"外した
 
 [Params.thumbnail]
   visibility = ["list"] # Control thumbnail visibility

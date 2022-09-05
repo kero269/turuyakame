@@ -33,13 +33,15 @@ config.toml の最初の方（つまり[params]とかの上！）たとえば、
 
 ```
 # config.tomlに入れるんだよ〜。
-hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
-summaryLength = 120 # サマリーの長さを120単語にする
+hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウント=true
+summaryLength = 70 # サマリーの長さを70単語にする
 ```
 
 [Hugo のサマリーが大きすぎる件 \- awm\-Tech](https://blog.awm.jp/2016/01/02/hugo/)
 
 [Hugo のサマリ長（Summary Length） · wshito's diary](http://diary.wshito.com/comp/cms/hugo-summarylength/)
+
+### サマリーの「もっと読む」
 
 ## header
 
