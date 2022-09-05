@@ -3,7 +3,7 @@ DefaultContentLanguage = "en"
 languageCode = 'ja'
 hasCJKLanguage = true 
 paginate = "10" # Number of posts per page
-summaryLength = 140
+summaryLength = 70
 title = '鶴屋蛙芽ブログ'
 theme = "mainroad"
 
@@ -36,7 +36,7 @@ URL = "/tech/"
   favicon = "favicon.ico" # Path to favicon file  
   hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
   mainSections = ["daily", "tech", "posts"] # Specify section pages to show on home page and the "Recent articles" widget
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
   summaryLength = 10 # サマリーの長さを120単語にする
