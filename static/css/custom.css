@@ -141,7 +141,7 @@ body {
 
 /* site home */
 .list__excerpt a {
-  font-weight: 100;
+  font-weight: 500;
 }
 .list__footer-readmore {
   float: none;
