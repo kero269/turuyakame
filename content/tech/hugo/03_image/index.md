@@ -2,10 +2,10 @@
 title: "Hugoの投稿に画像を追加する"
 date: 2022-09-02T10:17:15+09:00
 draft: false
-thumbnail: "img/placeholder.png"
+thumbnail: "img/thumbnail/680-tk_20220906-134844.webp"
 ---
 
-{{< thumbnail src="IMG_8602.jpeg" >}}
+{{< thumbnail src="tk_20220906-174623.webp" >}}
 
 ## 記事の中でサムネイルを指定
 
@@ -46,7 +46,7 @@ thumbnail 画像の参照元は、`static/img`らしい。ページバンドル�
 画像は`figure`(マークダウンの image syntakx 拡張)を使うと、[パラメーター](target="_blank")が使える。
 
 {{< figure
-src="frog_doushiyou2.png"
+src="tk_20220906-125634.webp"
 title="Screenshot"
 class="center"
 width="320"
