@@ -113,7 +113,12 @@ body {
 .menu__link:hover {
   color: #216869ff !important;
 }
+.menu__link {
+  text-transform: none;
+  font-size: 1.2em;
+}
 
+/***** Parts *****/
 /* btn */
 .btn {
   background-color: white;
@@ -159,6 +164,37 @@ body {
     width: 30vw !important;
   }
 }
+
+/***** Lists *****/
+
+/* category + tag lists */
+
+.turukame-cate-area {
+  margin-bottom: 50px;
+}
+.turukame-cafe-area h2 {
+  font-size: 3em;
+}
+.turukame-cate-area:first-child li {
+  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 1.5em;
+}
+/* .turukame-cate-area:nth-child(2) {
+  background-color: pink;
+} */
+.turukame-cate-area:nth-child(2) li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #6c757dff;
+  border-radius: 5px;
+  font-size: 1.3em;
+  color: #6c757dff !important;
+  padding: 10px 10px;
+}
+
+/***** Content Posts *****/
 /* 通常の投稿ページ　layout/_default/single.hdml */
 .turukame__post h2,
 .turukame__post h3,
@@ -175,7 +211,7 @@ body {
   }
 }
 
-/* 20220905 alert*/
+/* alert*/
 .message-box {
   padding: 0.75em;
   margin-bottom: 1rem;

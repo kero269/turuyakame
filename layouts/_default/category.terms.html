@@ -1,19 +1,20 @@
-{{ define "main" }} 
-<main class="main list" role="main"></main>
-
-<!-- <header class="main__header">
+{{ define "main" }}
+<main class="main list" role="main">
+  <!-- <header class="main__header">
 <h1>カテゴリーとタグの一覧</h1>
 </header> -->
 
-
-{{- range $taxonomyName, $taxonomy := .Site.Taxonomies }}
-<h2>{{ $taxonomyName }}</h2>
-<ul>
-  {{- range ($.Site.GetPage "taxonomyTerm" $taxonomyName).Pages }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{- range $taxonomyName, $taxonomy := .Site.Taxonomies }}
+  <div class="turukame-cate-area">
+    <h2>{{ $taxonomyName }}</h2>
+    <div class="turukame-cate-lists">
+      <ul role="list">
+        {{- range ($.Site.GetPage "taxonomyTerm" $taxonomyName).Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
   {{- end }}
-</ul>
-
-{{- end }}
 </main>
 {{ end }}
