@@ -6,7 +6,7 @@ archives: ["2020-02"]
 draft: false
 slug: customize-hugo-url
 thumbnail:
-  src: "img/202209/frog.jpg"
+  src: "img/thumbnail/680-tk_20220906-143954.webp"
 ---
 
 {{< figure
