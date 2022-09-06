@@ -10,7 +10,7 @@ thumbnail:
 ---
 
 {{< figure
-src="turukame-14.jpg"
+src="tk_20220906-15222.webp"
 title="カメの画像"
 link="https://gohugo.io/content-management/shortcodes/#figure"
 target="_blank"
