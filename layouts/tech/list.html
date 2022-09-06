@@ -1,18 +1,31 @@
-{{ if (eq .Title "Tech") }}
-<ul class="postlist">
-  {{ range .Sections.ByTitle }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ partial "recursive.html" . }}
-  </li>
-  {{ end }}
-</ul>
+{{ define "main" }}
+{{ .Content }} {{ if (eq .Title "Tech") }}
+
+  <ul class="postlist tech-list">
+    {{ range .Sections.ByTitle }}
+    <div class="section-area">
+    <li>
+      <span class="sub-section-title"
+        ><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </span>
+      {{ partial "recursive.html" . }}
+    </li>
+  </div>
+    {{ end }}
+  </ul>
+</div>
 {{ else }}
-<ul class="postlist">
-  {{ range .RegularPages }}
-  <li>
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
-  {{ end }}
-</ul>
+
+  <ul class="postlist tech-list">
+    {{ range .RegularPages }}
+    <div class="section-area">
+    <li> <span class="sub-section-title"
+      >
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></span>
+    </li>
+  </div>
+    {{ end }}
+  </ul>
+
+{{ end }} 
 {{ end }}
