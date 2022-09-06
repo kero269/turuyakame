@@ -148,7 +148,17 @@ body {
   float: none;
   margin-top: 10px;
 }
-
+.thumbnail__image {
+  width: 20vw !important;
+}
+@media screen and (max-width: 620px) {
+  .list__thumbnail {
+    max-width: 300px;
+  }
+  .thumbnail__image {
+    width: 30vw !important;
+  }
+}
 /* 通常の投稿ページ　layout/_default/single.hdml */
 .turukame__post h2,
 .turukame__post h3,
