@@ -130,6 +130,13 @@ aside a {
 .widget__title {
   font-size: 1.4em;
 }
+.widget {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.widget__item {
+  border-bottom: none;
+}
 /* btn */
 .btn {
   background-color: white;
