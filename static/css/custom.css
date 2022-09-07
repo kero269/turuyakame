@@ -48,6 +48,9 @@ body {
   min-height: 100vh;
   position: relative;
 }
+.footer__container {
+  max-width: 1150px !important;
+}
 .footer {
   width: 100%;
   position: absolute;
