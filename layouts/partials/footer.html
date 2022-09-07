@@ -5,11 +5,11 @@
       &copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default
       .Site.Title }}.
       <span class="footer__copyright-credits"
-        >{{ T "footer_credits" | safeHTML }}</span
-      >
-    </div>
-    <div class="footer__privacy">
-      <a href="/content/privacy/">Privacy Policy</a>
+        >{{ T "footer_credits" | safeHTML }} |
+      </span>
+      <span>
+        <a href="/content/privacy/">Privacy Policy</a>
+      </span>
     </div>
   </div>
 </footer>

@@ -48,22 +48,6 @@ body {
   min-height: 100vh;
   position: relative;
 }
-.footer__container {
-  max-width: 1150px !important;
-}
-.footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: -70px; /* ネガティブマージン追加*/
-  color: #fff1e6;
-  background: #212529ff;
-  border-top: 0;
-  font-size: 1.1em;
-}
-.footer a {
-  color: white !important;
-}
 @media screen and (min-width: 1240px) {
   /*　画面サイズが480pxからはここを読み込む　*/
   .wrapper {
@@ -71,6 +55,7 @@ body {
     max-width: 1200px;
   }
 }
+
 /* header */
 .logo {
   max-width: 1200px;
@@ -120,6 +105,26 @@ body {
 .menu__link {
   text-transform: none;
   font-size: 1.2em;
+}
+
+/* footer */
+.footer__container {
+  max-width: 1150px !important;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -150px; /* ネガティブマージン追加*/
+  color: #fff1e6;
+  background: #212529ff;
+  border-top: 0;
+  font-size: 1.1em;
+  padding: 20px;
+}
+.footer a {
+  color: white !important;
+  text-decoration: underline;
 }
 
 /***** Parts *****/
