@@ -5,6 +5,12 @@ draft: false
 thumbnail: "img/thumbnail/680-tk_20220906-134844.webp"
 ---
 
+たとえば、ここのところに何かを入れたとするじゃない。そのあとに toc を入れるとするじゃない。
+
+{{< toc >}}
+
+OK Google. TOC はできた。
+
 ## 記事の中でサムネイルを指定
 
 [Customization \- Mainroad](https://mainroad-demo.netlify.app/docs/customization/)

@@ -1,5 +1,0 @@
-{{- $src := .Get "src" }} {{- $imageRes := .Page.Resources.GetMatch $src }} {{-
-$imageRes := $imageRes.Fill "150x150" }} {{- $imageUrl := $imageRes.RelPermalink
-}}
-
-<img src="{{ $imageUrl }}" alt="{{ $src }}" />

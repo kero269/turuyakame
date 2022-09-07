@@ -7,6 +7,12 @@ summaryLength = 70
 title = '鶴屋蛙芽ブログ'
 theme = "mainroad"
 
+[markup]
+    [markup.tableOfContents]
+        endLevel = 2
+        ordered = false
+        startLevel = 2
+
 [permalinks]
   'posts' = "/:year/:month/:day/:15:04:05/"
   'tech' = "/:section/:year/:day/:month/:15:04:05/"
@@ -45,7 +51,7 @@ theme = "mainroad"
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
   summaryLength = 10 # サマリーの長さを120単語にする
-  toc = true # Enable Table of Contents
+  toc = false # Enable Table of Contents
   twitter_cards = true # Enable Twitter Cards if true
 #  opengraph = true # Enable OpenGraph if true <-設定する
 # schema = true # Enable Schema
@@ -72,7 +78,7 @@ theme = "mainroad"
   list = false  # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "categories", "taglist","social"] #"recent"外した
+  widgets = ["recent","categories", "taglist","social"] #"search",外した
 
 [Params.thumbnail]
   visibility = ["list"] # Control thumbnail visibility
