@@ -54,15 +54,14 @@ theme = "mainroad"
   summaryLength = 10 # サマリーの長さを120単語にする
   toc = false # Enable Table of Contents
   twitter_cards = true # Enable Twitter Cards if true
-#  opengraph = true # Enable OpenGraph if true <-設定する
+  opengraph = true # Enable OpenGraph if true 
+  images = ["/img/og-image.jpg"]
+
 # schema = true # Enable Schema
 #  mathjax = true # Enable MathJax
 #  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
 #  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 #   customJS = ["js/custom.js"] # Include custom JS files
-
-
-
 
 [Params.logo]
   image = "img/kame_logo.svg"

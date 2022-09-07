@@ -30,5 +30,7 @@ caption="カメが泳いでいる" >}}
 
 サムネイルのサイズは巨大なまま。
 
+{{<blog-card src="https://tiny-trifle-b4e820.netlify.app/">}}
+
 編集のやりとりは面白そう。
 [GitHub のプルリクエストに対するレビューの修正に対応する方法](https://tonari-it.com/github-request-changes-fix/#toc3)
