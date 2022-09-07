@@ -56,6 +56,7 @@ body {
   color: #fff1e6;
   background: #212529ff;
   border-top: 0;
+  font-size: 1.1em;
 }
 .footer a {
   color: white !important;
@@ -121,7 +122,8 @@ body {
 /***** Parts *****/
 @media screen and (min-width: 768px) {
   aside {
-    margin-left: 5% !important;
+    margin: 0 0 0 5% !important;
+    padding: 25px;
   }
 }
 aside a {
@@ -317,4 +319,55 @@ aside a {
 .light {
   background-color: #f2f2f2;
   color: #343a40;
+}
+
+/* amazon-widget */
+.amazon-widget {
+  margin: 2rem 0;
+  max-width: 480px;
+  position: relative;
+}
+.amazon-widget a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.amazon-widget-img {
+  border: 1px solid #e1e8ed;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.amazon-widget-img img {
+  border: none;
+  margin: 0 auto;
+  max-height: 200px;
+  padding: 16px;
+}
+.amazon-widget-info {
+  border-right: 1px solid #e1e8ed;
+  border-bottom: 1px solid #e1e8ed;
+  border-left: 1px solid #e1e8ed;
+  padding: 5px 10px 10px 10px;
+  border-radius: 0 0 15px 15px;
+}
+.amazon-widget:hover .amazon-widget-info {
+  background-color: #e1e8ed;
+}
+.amazon-widget-title {
+  font-weight: bold;
+  display: block;
+}
+.amazon-widget-via {
+  color: #aaa;
+}
+.amazon-widget-via img {
+  border: none;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  vertical-align: text-bottom;
 }

@@ -57,6 +57,8 @@ theme = "mainroad"
   toc = false # Enable Table of Contents
   twitter_cards = true # Enable Twitter Cards if true
   opengraph = true # Enable OpenGraph if true 
+  amazonJpAffiliate = "fromcorporate-22"
+
   
 
 # schema = true # Enable Schema

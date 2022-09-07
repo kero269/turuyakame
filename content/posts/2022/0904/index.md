@@ -28,9 +28,10 @@ caption="カメが泳いでいる" >}}
 
 今日の蒸し暑さも異常…。晴れているから台風の被害にあっている地域があるなんて信じられないけど、この湿気だとなんとなくわかるような気もする。
 
+{{< amazon asin="B0B2NX54XK" title="おばけのかわをむいたら Kindle版" >}}
 サムネイルのサイズは巨大なまま。
 
-{{<blog-card src="https://tiny-trifle-b4e820.netlify.app/">}}
+{{<blog-card url="https://tiny-trifle-b4e820.netlify.app/2022/09/04/074013/">}}
 
 編集のやりとりは面白そう。
 [GitHub のプルリクエストに対するレビューの修正に対応する方法](https://tonari-it.com/github-request-changes-fix/#toc3)
