@@ -5,8 +5,6 @@ draft: false
 thumbnail: "img/thumbnail/680-tk_20220906-134844.webp"
 ---
 
-{{< thumbnail src="tk_20220906-174623.webp" >}}
-
 ## 記事の中でサムネイルを指定
 
 [Customization \- Mainroad](https://mainroad-demo.netlify.app/docs/customization/)
