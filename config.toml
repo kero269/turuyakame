@@ -109,6 +109,23 @@ theme = "mainroad"
   'posts' = "/:year/:month/:day/:15:04:05/"
   'tech' = "/:section/:year/:day/:month/:15:04:05/"
 
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+
+[[related.indices]]
+  name = "tags"
+  weight = 80
+
+[[related.indices]]
+  name = "categories"
+  weight = 60
+
+[[related.indices]]
+  name = "date"
+  weight = 10
+
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'

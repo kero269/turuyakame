@@ -163,9 +163,6 @@ nav.breadcrumb li + li::before {
   display: inline-block;
   margin: 0 0.25em;
   color: #495057ff;
-  /* transform: rotate(15deg); */
-  /* border-right: 0.1em solid currentcolor; */
-  /* height: 0.8em; */
   content: ">";
 }
 
@@ -329,6 +326,17 @@ nav.breadcrumb a {
   .turukame__post .post__content a {
     text-decoration: underline !important;
   }
+}
+
+/* Related Contenst*/
+.related-posts {
+  margin: 0 0 50px;
+}
+.related-posts li {
+  margin-left: 20px;
+}
+.related-posts a {
+  font-size: 1.2em;
 }
 
 /* alert*/
