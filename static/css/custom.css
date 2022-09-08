@@ -55,7 +55,12 @@ body {
     max-width: 1200px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .wrapper {
+    padding: 15px;
+  }
+}
 /* header */
 .logo {
   max-width: 1200px;
@@ -103,7 +108,7 @@ body {
   color: #216869ff !important;
 }
 .menu__link {
-  text-transform: none;
+  /* text-transform: none; */
   font-size: 1.2em;
 }
 
@@ -130,7 +135,7 @@ body {
 /***** Parts *****/
 @media screen and (min-width: 768px) {
   aside {
-    margin: 0 0 0 5% !important;
+    margin: 0 0 0 4% !important;
     padding: 25px;
   }
 }
@@ -218,7 +223,7 @@ nav.breadcrumb a {
   font-weight: 500;
 }
 .turukame-toc-menu ul > li a {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 /* pagenation */
@@ -313,6 +318,9 @@ nav.breadcrumb a {
 
 /***** Content Posts *****/
 /* 通常の投稿ページ　layout/_default/single.hdml */
+post__title {
+  font-size: 2.2rem;
+}
 .turukame__post h2,
 .turukame__post h3,
 .turukame__post h4 {
@@ -340,24 +348,11 @@ nav.breadcrumb a {
 }
 
 /* SNS share button */
-.sns_parent {
-  /* text-align: center; */
-  /* padding: 20px;
-  margin: 20px 0;
-  position: relative; */
-}
-
 .sns_section {
   display: flex;
   justify-content: space-around;
   width: 80%;
   margin: 40px auto;
-  /* text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%); */
 }
 @media screen and (min-width: 768px) {
   .sns_section {
