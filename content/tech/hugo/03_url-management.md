@@ -15,13 +15,13 @@ target="_blank"
 alt="鶴屋蛙芽"
 caption="これはキャプションです" >}}
 
-permlink を変えたい場合、[URL Management \| Hugo](https://gohugo.io/content-management/urls/)によれば`config`にルールを記述すれば良いとある。
+permlink を変えたい場合、[URL Management \| Hugo](https://gohugo.io/content-management/urls/)によれば`config`にルールを記述すれば良い。
 
 そもそもセクションのつくり方として、content 直下に作らなければならないようだ。
 
 [Content Sections \| Hugo](https://gohugo.io/content-management/sections/#nested-sections)
 
-セクション（いままでの呼び名はカテゴリ）
+セクション
 
 [セクションテンプレート \(section\.html\) の中でセクションのタイトルを表示する \- まくまく Hugo ノート](https://maku77.github.io/hugo/layout/section-name.html)
 

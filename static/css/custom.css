@@ -74,15 +74,18 @@ body {
   border-bottom: 1px solid #6c757dff !important;
   border-top: 1px solid #6c757dff !important;
 }
-.menu__list {
+.turukame-menu .menu__list {
+  width: fit-content;
   background-color: white;
   padding: 0 25px;
+  margin: 0 auto;
   /* border: 1rem solid; */
   /* border-bottom: 1px solid #6c757dff !important; */
   /* border-top: 1px solid #6c757dff !important; */
 }
 @media screen and (min-width: 1200px) {
-  .menu__list {
+  .turukame-menu .menu__list {
+    /* width: fit-content; */
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -110,8 +113,14 @@ body {
 .menu__link {
   /* text-transform: none; */
   font-size: 1.2em;
+  font-weight: 400;
 }
-
+/* content -primary */
+.primary {
+  padding-top: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+}
 /* footer */
 .footer__container {
   max-width: 1150px !important;
@@ -206,18 +215,22 @@ nav.breadcrumb a {
 
 /* toc */
 .turukame-toc {
-  margin: 20px 0 40px;
+  margin: 30px 0 40px;
+  border: 1px dotted #6c757dff;
+  border-radius: 5px;
 }
 .turukame-toc h2 {
-  font-size: 1.4em;
+  margin: 0;
+  background: #f2f2f2;
+  padding: 10px !important;
+  font-size: 1.2em;
   color: #00132d;
-  margin: 10px 0;
 }
 .turukame-toc-menu ul > li {
   list-style: circle;
 }
 .turukame-toc-menu ul {
-  margin-left: 10px;
+  margin: 10px 0 10px 30px;
 }
 .turukame-toc-menu a {
   font-weight: 500;
@@ -335,7 +348,15 @@ post__title {
     text-decoration: underline !important;
   }
 }
-
+/* */
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+figcaption p {
+  color: #6c757dff !important;
+}
 /* Related Contenst*/
 .related-posts {
   margin: 0 0 50px;
@@ -352,7 +373,7 @@ post__title {
   display: flex;
   justify-content: space-around;
   width: 80%;
-  margin: 40px auto;
+  margin: 60px auto;
 }
 @media screen and (min-width: 768px) {
   .sns_section {

@@ -1,7 +1,7 @@
 ---
 title: "Hugo のインストールからテーマまで"
 date: 2022-09-02T09:01:34+09:00
-draft: false
+draft: true
 tags: [example, test]
 categories: [tech]
 ---

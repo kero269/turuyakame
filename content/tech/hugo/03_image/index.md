@@ -1,7 +1,7 @@
 ---
 title: "Hugoの投稿に画像を追加する"
 date: 2022-09-02T10:17:15+09:00
-draft: false
+draft: true
 thumbnail: "img/thumbnail/680-tk_20220906-134844.webp"
 ---
 
