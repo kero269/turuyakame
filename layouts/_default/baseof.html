@@ -31,6 +31,9 @@
 	<link rel="stylesheet" href="{{ . | relURL }}">
 	{{- end }}
 
+	<!-- fontawesome added 20220908 -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
 	{{- with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}

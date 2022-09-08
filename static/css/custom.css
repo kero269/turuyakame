@@ -339,6 +339,77 @@ nav.breadcrumb a {
   font-size: 1.2em;
 }
 
+/* SNS share button */
+.sns_parent {
+  /* text-align: center; */
+  /* padding: 20px;
+  margin: 20px 0;
+  position: relative; */
+}
+
+.sns_section {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 40px auto;
+  /* text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%); */
+}
+@media screen and (min-width: 768px) {
+  .sns_section {
+    width: 60%;
+  }
+}
+.sns_button {
+  /* float: left; */
+  box-shadow: inset 0 0 0 1px;
+  border-radius: 100%;
+}
+.sns_button a {
+  display: table-cell;
+  width: 44px;
+  height: 44px;
+  color: #495057ff !important;
+  text-align: center;
+  vertical-align: middle;
+}
+.sns_button i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.sns_button + .sns_button {
+  margin: 0 0 0 12px;
+}
+.fa-hatena:before {
+  content: "B!";
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.fa-twitter:hover {
+  color: #1b95e0;
+}
+.fa-facebook:hover {
+  color: #3b5999;
+}
+.fa-get-pocket:hover {
+  color: #ee4056;
+}
+.fa-hatena:hover {
+  color: #4ba3d9;
+}
+.fa-rss:hover {
+  color: #ffad05ff;
+}
+
+/* .sns_button:hover {
+  box-shadow: inset 0 0 0 22px #eaeaea;
+} */
 /* alert*/
 .message-box {
   padding: 0.75em;
