@@ -39,16 +39,24 @@ theme = "mainroad"
   URL = "/categories/"
   weight = 4
 
+[[menu.main]]
+  Name = "RSS"
+  URL = "/index.xml/"
+  weight = 100
+
 [Params]
+  amazonJpAffiliate = "fromcorporate-22"
   authorbox = true # Show authorbox at bottom of pages if true
   customCSS = ["../css/custom.css"]
   copyright = "turuyakame" # Footer copyright holder, otherwise will use site title
   dateformat = "2006/01/02" # Change the format of dates
   description = "人生後半戦に挑んでいる鶴屋蛙芽（つるやかめ）の軌跡。趣味の語学学習やプログラミング、日々のアレヤコレヤについて綴っています。" # Site description. Used in meta description
+  enableRobotsTXT = false # これはtrueにする
   favicon = "favicon.ico" # Path to favicon file  
   hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
   images = ["../img/og-image.jpg"]
   mainSections = ["daily", "tech", "posts"] # Specify section pages to show on home page and the "Recent articles" widget
+  opengraph = true # Enable OpenGraph if true 
   readmore = true # Show "Read more" button in list if true
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
@@ -56,11 +64,7 @@ theme = "mainroad"
   title = "My cool site"
   toc = false # Enable Table of Contents
   twitter_cards = true # Enable Twitter Cards if true
-  opengraph = true # Enable OpenGraph if true 
-  amazonJpAffiliate = "fromcorporate-22"
-
-  
-
+ 
 # schema = true # Enable Schema
 #  mathjax = true # Enable MathJax
 #  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -104,3 +108,8 @@ theme = "mainroad"
 [permalinks]
   'posts' = "/:year/:month/:day/:15:04:05/"
   'tech' = "/:section/:year/:day/:month/:15:04:05/"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5

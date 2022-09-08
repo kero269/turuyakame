@@ -7,8 +7,11 @@ draft: false
 slug: customize-hugo-url
 thumbnail:
   src: "img/thumbnail/680-tk_20220906-143954.webp"
+description: "ここにdescriptionを入れると入るのかな?"
 categories:
   [tech, diary, Japanese, 英語, 韓国語, レシピ, 技術系, 日々雑記, 健康]
+images:
+  - tk_20220906-15222.webp
 ---
 
 {{< figure

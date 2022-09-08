@@ -147,10 +147,38 @@ aside a {
 .widget__item {
   border-bottom: none;
 }
+
+/* breadcrumb */
+nav.breadcrumb ol {
+  margin: 1em 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav.breadcrumb li {
+  display: inline;
+}
+
+nav.breadcrumb li + li::before {
+  display: inline-block;
+  margin: 0 0.25em;
+  color: #495057ff;
+  /* transform: rotate(15deg); */
+  /* border-right: 0.1em solid currentcolor; */
+  /* height: 0.8em; */
+  content: ">";
+}
+
+nav.breadcrumb a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #6c757dff !important;
+}
+
 /* btn */
 .btn {
   background-color: white;
-  border: 1px solid #6c757dff;
+  border: 1px solid #495057ff;
   border-radius: 5px;
 }
 /* side-bar category */

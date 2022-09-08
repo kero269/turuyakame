@@ -2,6 +2,11 @@
 <main class="main" role="main">
   <article class="post turukame__post">
     <header class="post__header">
+      <!-- Added  -->
+
+      {{ partial "breadcrumb.html" . }}
+
+      <!-- Added -->
       <h1 class="post__title">{{ .Title }}</h1>
       {{- with .Params.lead }}
       <p class="post__lead">{{ . }}</p>
