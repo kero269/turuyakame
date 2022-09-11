@@ -23,7 +23,15 @@ p,
 a {
   color: #343a40ff !important;
 }
-
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  margin-top: 1.8em;
+}
+h3 {
+  margin-top: 1.5em;
+}
 p,
 .list__excerpt a {
   font-size: 1.2em;
@@ -60,6 +68,10 @@ body {
   .wrapper {
     padding: 15px;
   }
+}
+
+.main__content li {
+  font-size: 1.2em;
 }
 /* header */
 .logo {
@@ -223,7 +235,7 @@ nav.breadcrumb a {
   margin: 0;
   background: #f2f2f2;
   padding: 10px !important;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #00132d;
 }
 .turukame-toc-menu ul > li {
@@ -236,7 +248,7 @@ nav.breadcrumb a {
   font-weight: 500;
 }
 .turukame-toc-menu ul > li a {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 /* pagenation */
