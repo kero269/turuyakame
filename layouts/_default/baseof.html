@@ -46,8 +46,10 @@
 		{{ template "_internal/google_analytics_async.html" . }}
 		{{- end }}
 	{{- end }}
+	{{ partial "gtm/gtm-head" . }}
 </head>
 <body class="body">
+	{{ partial "gtm/gtm-body" . }}
 	<div class="container container--outer">
 		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
 		<div class="wrapper flex">
