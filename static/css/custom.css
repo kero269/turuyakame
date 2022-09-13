@@ -248,7 +248,7 @@ nav.breadcrumb a {
   font-weight: 500;
 }
 .turukame-toc-menu ul > li a {
-  /* font-size: 1.2em; */
+  font-size: 1.1em;
 }
 
 /* pagenation */
@@ -346,11 +346,11 @@ nav.breadcrumb a {
 post__title {
   font-size: 2.2rem;
 }
-.turukame__post h2,
+/* .turukame__post h2,
 .turukame__post h3,
 .turukame__post h4 {
   padding-top: 1em;
-}
+} */
 .turukame__post .tags__item {
   background-color: white;
 }
