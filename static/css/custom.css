@@ -19,8 +19,7 @@ h2,
 h3,
 h4,
 h5,
-p,
-a {
+p {
   color: #343a40ff !important;
 }
 h1 {
@@ -36,6 +35,7 @@ p,
 .list__excerpt a {
   font-size: 1.2em;
 }
+
 a:hover {
   color: #216869ff !important;
   text-decoration: none !important;
@@ -69,10 +69,11 @@ body {
     padding: 15px;
   }
 }
-
+.primary li a,
 .main__content li {
   font-size: 1.2em;
 }
+
 /* header */
 .logo {
   max-width: 1200px;
@@ -80,7 +81,12 @@ body {
   text-align: center;
   /* padding: 25px; */
 }
-
+.logo__img {
+  width: 15vw;
+  height: 15vh;
+  max-width: 100px !important;
+  max-height: 100px !important;
+}
 /* menu かなり挙動が変なので変更しないかも*/
 .turukame-menu {
   border-bottom: 1px solid #6c757dff !important;
@@ -127,6 +133,7 @@ body {
 }
 .menu__link {
   /* text-transform: none; */
+  color: #0b090aff;
   font-size: 1.2em;
   font-weight: 400;
 }
@@ -219,6 +226,7 @@ nav.breadcrumb a {
   padding-bottom: 20px;
 }
 /* tag */
+.tags__link,
 .widget-taglist__link {
   color: #6c757dff !important;
 }
@@ -260,6 +268,12 @@ nav.breadcrumb a {
 }
 
 /***** site home *****/
+.list__item {
+  padding-bottom: 1.8rem;
+}
+.list__title a {
+  font-size: 1.2em;
+}
 .list__excerpt a {
   font-weight: 500;
 }
@@ -271,6 +285,9 @@ nav.breadcrumb a {
   width: 20vw !important;
 }
 @media screen and (max-width: 620px) {
+  .list__title a {
+    font-size: 1.5em;
+  }
   .list__thumbnail {
     max-width: 300px;
   }
@@ -278,6 +295,8 @@ nav.breadcrumb a {
     width: 30vw !important;
   }
 }
+/* @media screen and (min-width: 768px) {
+} */
 
 /***** Lists *****/
 
@@ -357,12 +376,15 @@ post__title {
 .turukame__post .tags__item {
   background-color: white;
 }
-@media screen and (max-width: 768px) {
-  /* タブレット以下*/
+.turukame__post .post__content a {
+  /* color: pink; */
+  text-decoration: underline dotted !important;
+}
+/* @media screen and (max-width: 768px) {
   .turukame__post .post__content a {
     text-decoration: underline !important;
   }
-}
+} */
 /* */
 figcaption {
   text-align: center;
@@ -386,7 +408,7 @@ figcaption p {
 /* SNS share button */
 .sns_section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 50%;
   margin: 60px 0;
 }
