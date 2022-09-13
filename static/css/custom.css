@@ -119,6 +119,9 @@ body {
     /* border-bottom: 1px solid #6c757dff !important; */
   }
 }
+.menu__link img {
+  vertical-align: text-top;
+}
 .menu__link:hover {
   color: #216869ff !important;
 }
@@ -384,18 +387,21 @@ figcaption p {
 .sns_section {
   display: flex;
   justify-content: space-around;
-  width: 80%;
-  margin: 60px auto;
+  width: 50%;
+  margin: 60px 0;
 }
 @media screen and (min-width: 768px) {
   .sns_section {
-    width: 60%;
+    width: 50%;
   }
+}
+.svg-pass {
+  vertical-align: middle;
 }
 .sns_button {
   /* float: left; */
-  box-shadow: inset 0 0 0 1px;
-  border-radius: 100%;
+  /* box-shadow: inset 0 0 0 1px;
+  border-radius: 100%; */
 }
 .sns_button a {
   display: table-cell;

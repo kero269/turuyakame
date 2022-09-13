@@ -21,7 +21,7 @@ theme = "mainroad"
 [menu]
 [[menu.main]]
   Name = " "
-  pre = "<i class='fa fa-home'></i>"
+  pre = "<img src='/img/home.svg' style='height: 20px; width: 20px;' alt='test menu image'>"
   URL = "/"
   weight = -100
 
