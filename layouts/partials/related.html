@@ -3,7 +3,15 @@
   <h2>✨Related Posts</h2>
   <ul>
     {{ range . }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Params.lead }}
+      <p class="list__lead post__lead">{{ . }}</p>
+      {{- end }} {{ with partial "post_meta.html" . -}}
+      <div class="list__meta meta">{{ . }}</div>
+      {{- end }}
+    </li>
     {{ end }}
   </ul>
 </div>
