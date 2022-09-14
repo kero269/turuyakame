@@ -134,6 +134,6 @@ theme = "mainroad"
   weight = 10
 
 [sitemap]
-  changefreq = 'monthly'
+  changefreq = 'weekly'
   filename = 'sitemap.xml'
   priority = 0.5
