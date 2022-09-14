@@ -7,7 +7,7 @@ categories: [技術系] # fill in [example, test]
 tags: [Xserver] # fill in [example, test]
 description: "他サーバで運用していた独自ドメインをXserverに移行し、併せてメールを作った。しかしgmail宛のメールだけ届かないという事態に陥ったが、アレコレやって解決しました。" # add description
 summary: "他サーバで運用していた独自ドメインをXserverに移行し、併せてメールを作った。しかしgmail宛のメールだけ届かないという事態に陥ったが、アレコレやって解決しました。"
-draft: true
+draft: false
 ---
 
 他サーバで運用していた独自ドメインを Xserver に移行し、併せてメールを作ったところ、gmail アドレス宛のメールだけ届かないという事態に陥りました。
