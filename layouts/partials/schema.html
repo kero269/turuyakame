@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "image": [
+    {{ .Params.image | absURL }},
+    "../img/og-image.jpg"
+  ],
+    "author": {
+      "@type": "Person",
+      "name": {{ .Site.Author.name }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ .Site.Params.logo.image }}
+      }
+    },
+    "datePublished": "{{ .Date }}",
+    "dateModified": "{{ .Lastmod }}"
+  }
+</script>
