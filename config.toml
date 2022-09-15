@@ -14,7 +14,7 @@ theme = "mainroad"
 
 [markup]
     [markup.tableOfContents]
-        endLevel = 2
+        endLevel = 3
         ordered = false
         startLevel = 2
 
@@ -81,7 +81,7 @@ theme = "mainroad"
 [Params.logo]
   image = "img/kame_logo.svg"
   title = "鶴屋蛙芽"
-  subtitle = "Just another つるかめ's site"
+  subtitle = "Just another つるやかめ's site"
 
 [Params.style.vars] 
   highlightColor = "none"

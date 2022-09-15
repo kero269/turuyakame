@@ -249,6 +249,12 @@ nav.breadcrumb a {
   font-size: 1.4em;
   color: #00132d;
 }
+.turukame-toc-menu ul > li:first-child {
+  padding-top: 0.5em;
+}
+.turukame-toc-menu ul > li:last-child {
+  padding-bottom: 0.5em;
+}
 .turukame-toc-menu ul > li {
   list-style: circle;
 }
