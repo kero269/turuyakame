@@ -7,7 +7,7 @@ categories: [技術系] # fill in [example, test]
 tags: [github] # fill in [example, test]
 description: "私にとっては謎のサービスgistでfileを作ってみました。git cloneしてディレクトリを作り、ローカルからpushまで試しています。" # add description
 summary: "私にとっては謎のサービスgistでfileを作ってみました。git cloneしてディレクトリを作り、ローカルからpushまで試しています。"
-draft: true
+draft: false
 ---
 
 名前は割とよく見るけど、一体何者なのかよくわからないサービス gist。さらに有用性もよくわかりません。ナニコレ。
@@ -52,9 +52,8 @@ https://gist.github.com/kero269/1089a6ef15dd1cb6eb1c5a33e13febd6
 
 という gist であれば、
 
-```
-{{< gist kero269 1089a6ef15dd1cb6eb1c5a33e13febd6 >}}
-
+```html
+{{</* gist kero269 1089a6ef15dd1cb6eb1c5a33e13febd6 */>}}
 ```
 
 と記述すれば、こんな感じ ↓ に表示してくれます。
@@ -81,7 +80,7 @@ Username と Password を入れろと言われるのですが、Username は git
 
 こちら->[GitHub Gist のリポジトリを Git ツールで運用したり他者と共同作業するための方法](https://monomonotech.jp/kurage/memo/m220316_githubgist_gittool.html)を参考に Personal access token をつくって push。
 
-できた。
+できた 🎉。
 
 しかし、このやり方だと一つの gist の中に 2 つのファイルが入るという構造になってしまうんですよね。すなわち、ブログにも 2 つのファイルが掲載されてしまうのです。
 

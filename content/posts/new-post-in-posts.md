@@ -62,4 +62,6 @@ tags: [example, test]
 !important は CSS の適切な設計の観点からは基本的に使用を避けるべきものです。上記では、あくまでも CSS が反映されない原因を、CSS に詳しくない方でも手軽に検証するための手段として !important を紹介しています。
 {{< /notice >}}
 
-{{< blog-card url="https://rilaks.jp/wordpress/css-not-working/">}}
+```html
+  {{</* blog-card url="https://rilaks.jp/wordpress/css-not-working/" */>}}
+```
