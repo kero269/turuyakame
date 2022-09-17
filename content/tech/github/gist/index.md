@@ -7,7 +7,7 @@ categories: [技術系] # fill in [example, test]
 tags: [github] # fill in [example, test]
 description: "私にとっては謎のサービスgistでfileを作ってみました。git cloneしてディレクトリを作り、ローカルからpushまで試しています。" # add description
 summary: "私にとっては謎のサービスgistでfileを作ってみました。git cloneしてディレクトリを作り、ローカルからpushまで試しています。"
-draft: false
+draft: true
 ---
 
 名前は割とよく見るけど、一体何者なのかよくわからないサービス gist。さらに有用性もよくわかりません。ナニコレ。
