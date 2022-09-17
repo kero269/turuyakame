@@ -285,7 +285,6 @@ blockquote a {
   font-style: italic;
   font-weight: 400 !important;
   padding-left: 20px;
-  /* text-align: right; */
 }
 blockquote a::before {
   content: "\A >> ";

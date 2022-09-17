@@ -58,8 +58,8 @@ tags: [example, test]
 
 !important; をつけることでその CSS の優先順位が上がるため、これが原因だった場合はリンクの下線が消えるはずです。
 
-{{< alert color="danger" >}}
+{{< notice color="danger" >}}
 !important は CSS の適切な設計の観点からは基本的に使用を避けるべきものです。上記では、あくまでも CSS が反映されない原因を、CSS に詳しくない方でも手軽に検証するための手段として !important を紹介しています。
-{{< /alert >}}
+{{< /notice >}}
 
 {{< blog-card url="https://rilaks.jp/wordpress/css-not-working/">}}
