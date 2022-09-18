@@ -257,6 +257,7 @@ nav.breadcrumb a {
   padding-bottom: 0.5em;
 }
 .turukame-toc-menu ul > li {
+  font-size: 1em;
   list-style: circle;
 }
 .turukame-toc-menu ul {
