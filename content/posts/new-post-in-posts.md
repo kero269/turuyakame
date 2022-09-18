@@ -1,7 +1,7 @@
 ---
 title: "Test Post"
 date: 2020-09-03T17:01:45+09:00
-draft: false
+draft: true
 tags: [example, test]
 ---
 
