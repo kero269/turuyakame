@@ -1,0 +1,10 @@
+<!-- layouts/_default/_markup/render-image.html -->
+<div class="in-post__img">
+  <img
+    src="{{ .Destination | safeURL }}"
+    alt="{{ .Text }}"
+    loading="lazy"
+    width="700px"
+    height="700px"
+  />
+</div>
