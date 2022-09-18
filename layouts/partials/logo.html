@@ -10,7 +10,7 @@
 		<a class="logo__link" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
 			{{ with $logoImage -}}
 				<div class="logo__item logo__imagebox">
-					<img class="logo__img" src="{{ . | relURL }}" loading="lazy">
+					<img class="logo__img" src="{{ . | relURL }}" loading="lazy" alt="kame-logo">
 				</div>
 			{{- end -}}
 			{{ with $logoTitle -}}
