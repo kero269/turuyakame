@@ -1,11 +1,13 @@
 ---
-title: "New Post in Posts"
-date: 2022-09-03T17:01:45+09:00
-draft: true
+title: "Test Post"
+date: 2020-09-03T17:01:45+09:00
+draft: false
 tags: [example, test]
 ---
 
 カーソルを合わせた際に下線を表示させると、クリックできるリンクであることが分かり易くなり、ユーザビリティーの向上につながります。
+
+{{< youtube ZyXlpKkgbFc>}}
 
 {{< toc >}}
 
