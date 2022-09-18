@@ -7,7 +7,7 @@ categories: [技術系] # fill in [example, test]
 tags: [Hugo] # fill in [example, test]
 description: "YouTubeを埋め込んだ投稿を作ったら、PageSpeed Insightsの点数が急降下。この事態をlite YouTube Embedを入れることで打開しました。" # add description
 summary: "YouTubeを埋め込んだ投稿を作ったら、PageSpeed Insightsの点数が急降下。この事態をlite YouTube Embedを入れることで打開しました。"
-draft: true
+draft: false
 ---
 
 一つ前の[🥰 Brave というウェブブラウザを使ってみた](../../../posts/review/brave/index.md)という投稿に YouTube を埋め込んだのですが、これを[PageSpeed Insights](https://pagespeed.web.dev/)でテストしてみたら点数がとっても悪かった。
