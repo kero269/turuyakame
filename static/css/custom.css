@@ -69,7 +69,6 @@ body {
     padding: 15px;
   }
 }
-.post__content li,
 .primary li a,
 .main__content li {
   font-size: 1.2em;
@@ -278,20 +277,22 @@ nav.breadcrumb a {
 /* blockquote */
 blockquote {
   border-left: 5px solid #ccc;
-  padding: 1em 1em 1em 2em;
-  margin: 1em 0;
+  padding: 1em 1em 1.5em 2em;
+  margin: 1em 0 1.5em 0;
 }
 blockquote a {
   font-size: 0.9em;
   color: #003049ff;
   font-style: italic;
   font-weight: 400 !important;
-  padding-left: 20px;
 }
 blockquote a::before {
-  content: "\A >> ";
-  white-space: pre;
+  content: "\A >>";
+  /* white-space: pre; */
 }
+/* blockquote p:last-child a {
+  top: -30px;
+} */
 
 /***** site home *****/
 .list__item {
@@ -391,14 +392,22 @@ blockquote a::before {
 
 /***** Content Posts *****/
 /* 通常の投稿ページ　layout/_default/single.hdml */
-post__title {
-  font-size: 2.2rem;
+.turukame__post a {
+  color: #003049ff;
 }
-/* .turukame__post h2,
-.turukame__post h3,
-.turukame__post h4 {
-  padding-top: 1em;
-} */
+.turukame__post header {
+  margin-bottom: 3em;
+}
+.turukame__post .post__title {
+  font-size: 2rem;
+  margin-top: 0.5em;
+}
+.turukame__post hr {
+  margin: 3em auto;
+  border: 0;
+  width: 60%;
+  border-top: 1px dashed #6c757dff;
+}
 .turukame__post .tags__item {
   background-color: white;
 }
@@ -406,12 +415,14 @@ post__title {
   /* color: pink; */
   text-decoration: underline dotted !important;
 }
-/* @media screen and (max-width: 768px) {
-  .turukame__post .post__content a {
-    text-decoration: underline !important;
-  }
-} */
-/* */
+.turukame__post li,
+.turukame__post li a {
+  font-size: 1.2em;
+}
+.turukame__post img {
+  margin: 1em 0;
+}
+
 figcaption {
   text-align: center;
   font-size: 0.9em;

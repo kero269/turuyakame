@@ -21,7 +21,8 @@ Brave というブラウザの存在を、今日はじめて知ってしまっ�
 ## 🧐 Brave って何?
 
 > Brave（ブレイブ）は、Brave Software によって開発されているウェブブラウザである。Chromium をベースとしており、Windows、macOS、Linux、iOS、Android 版が存在し、オープンソースで開発されている。広告とトラッカーをブロックする機能を標準装備し、ユーザーのプライバシーの保護、そして高いパフォーマンスを実現できることを売りにしている。
-> [Brave \(ウェブブラウザ\) \- Wikipedia](<https://ja.
+>
+> [Brave \(ウェブブラウザ\) \- Wikipedia](<https://ja.wikipedia.org/wiki/Brave_(%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6)>)
 
 一時期 [DuckDuckGo](https://duckduckgo.com/)のエンジンやブラウザを使ってみたのだが、そのときは（どういうわけだか） Developer モードは Chrome じゃなきゃダメだと思い込んでいたし（実際にそうだったのかはわからないけど）、なぁんとなく Chrome に戻ってしまったんですよね。
 
@@ -91,6 +92,8 @@ Brave はブラウザも提供しているけど、検索エンジンも提供�
 > 真の透明性
 >
 > Brave Search は、秘密の手法やアルゴリズムを使って結果にバイアスをかけたり検閲したりしません。結果の改善は匿名のコミュニティの貢献に、多様性の確保はコミュニティが作成した代替ランキングモデルに依存しています。
+>
+> [Brave Search とは？ \| Brave Browser](https://brave.com/ja/search/)
 
 イマドキのサービスらしく brave も[コミュニティ](https://community.brave.com/)が充実していて、詳しいヘルプだとか、バグとかエラーとかが報告されたり、機能リクエストなんてものがあったりします。とてもオープンです。あ、[日本語コミュニティ](https://community.brave.com/c/japanese-support/148)もある。
 
